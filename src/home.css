@@ -1,0 +1,38 @@
+/* .carousel-item .amazon-image {
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 2), rgba(0, 0, 0, 0.5));
+  z-index: -3;
+  height: 250px;
+} */
+
+.home__row {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 23%;
+  padding: 12px;
+  /* transition: transform 450ms; */
+}
+/* .home__row:hover {
+  transform: scale(0.99);
+} */
+.firstSpan {
+  grid-template-columns: 97%;
+  padding: 12px;
+}
+.secondSpan {
+  grid-template-columns: 48% 48%;
+  padding: 12px;
+}
+.thirdSpan {
+  grid-template-columns: 33% 33% 34%;
+  padding: 12px;
+}
+
+@media (max-width: 1000px) {
+  .home__row {
+    grid-template-columns: 50% 50%;
+  }
+}
+@media (max-width: 586px) {
+  .home__row {
+    grid-template-columns: 100%;
+  }
+}

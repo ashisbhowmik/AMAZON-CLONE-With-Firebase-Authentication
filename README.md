@@ -8,6 +8,6 @@ React Hooks
 Redux
 React Context Api
 Firebase Database
-Firebase Hoasting
+Firebase Hosting
 Node js 1.0 HTML( mainly JSX) 1.1 CSS ( mainly JSX) 
 checkout link --> https://clone-4075c.web.app
